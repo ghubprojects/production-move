@@ -1,0 +1,37 @@
+.container {
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: var(--default-layout-footer-height);
+    background: pink;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: var(--default-layout-width);
+    height: 100%;
+    padding: 0 24px 0 20px;
+}
+
+.upload {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 16px;
+
+    .plus {
+        margin-right: 8px;
+    }
+}
+
+.logo,
+.plus {
+    display: flex;
+    cursor: pointer;
+}

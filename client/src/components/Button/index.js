@@ -1,5 +1,1 @@
-function Button() {
-    return <button>Click me</button>;
-}
-
-export default Button;
+export { default } from './Button';
