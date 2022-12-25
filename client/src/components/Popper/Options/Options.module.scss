@@ -12,17 +12,9 @@
 
 .option-item,
 .log-out {
-    width: 100%;
-    line-height: 22px;
-    padding: 10px 16px;
-
-    &:hover {
-        background: rgba(22, 24, 35, 0.03);
-    }
-
-    .option-icon {
-        margin-right: 8px;
-        display: flex;
+    @apply w-full px-2.5 py-4 flex hover:bg-gray-900/[.12];
+    .icon {
+        @apply w-5 mr-2.5 flex;
     }
 }
 

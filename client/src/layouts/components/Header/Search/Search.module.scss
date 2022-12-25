@@ -13,13 +13,11 @@
     }
 
     input {
+        @apply text-sm;
         width: 252px;
-        line-height: 2.2rem !important;
-        padding: 12px 0;
-        margin: -12px 0;
+        padding: 10px 0;
+        margin: -10px 0;
 
-        font-family: var(--font-proxima-nova);
-        font-size: 1.6rem;
         caret-color: var(--primary);
 
         &:placeholder-shown ~ .search-btn {

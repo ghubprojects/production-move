@@ -14,11 +14,9 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
     },
 });
 
-const db = {};
-
-db.Sequelize = Sequelize;
-db.sequelize = sequelize;
+const db = { Sequelize, sequelize };
 
 db.tutorials = require('./tutorial.model.js')(sequelize, Sequelize);
+db.accounts = require('./account.model.js')(sequelize, Sequelize);
 
 module.exports = db;

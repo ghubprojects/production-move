@@ -1,36 +1,16 @@
 .container {
-    position: fixed;
-    top: 0;
-
-    display: flex;
-    justify-content: center;
-
-    width: 100%;
+    @apply fixed top-0 flex justify-center bg-white w-full;
     height: var(--default-layout-header-height);
-    background: pink;
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    width: var(--default-layout-width);
-    height: 100%;
-    padding: 0 24px 0 20px;
+    @apply flex justify-between items-center w-full h-full pr-6 pl-5;
 }
 
 .actions {
     display: flex;
     align-items: center;
-}
-
-.accounts {
-    display: flex;
-    align-items: center;
-    height: 36px;
-    padding: 0 16px;
 }
 
 .messages {
@@ -71,11 +51,6 @@
     height: 32px;
     margin-left: 24px;
     border-radius: 999px;
-}
-
-.login {
-    justify-content: center;
-    margin-left: 16px;
 }
 
 .more {

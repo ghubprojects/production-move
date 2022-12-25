@@ -1,11 +1,5 @@
-export const ClearIcon = ({ width = '1.6rem', height = '1.6rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='rgba(22, 24, 35, 0.34)'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const ClearIcon = () => (
+    <svg viewBox='0 0 48 48' fill='rgba(22, 24, 35, 0.34)' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -14,14 +8,8 @@ export const ClearIcon = ({ width = '1.6rem', height = '1.6rem' }) => (
     </svg>
 );
 
-export const LoadingIcon = ({ width = '1.2rem', height = '1.2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 512 512'
-        fill='rgba(22, 24, 35, 0.34)'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const LoadingIcon = () => (
+    <svg viewBox='0 0 512 512' fill='rgba(22, 24, 35, 0.34)' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -30,14 +18,8 @@ export const LoadingIcon = ({ width = '1.2rem', height = '1.2rem' }) => (
     </svg>
 );
 
-export const SearchIcon = ({ width = '2.4rem', height = '2.4rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const SearchIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -46,14 +28,8 @@ export const SearchIcon = ({ width = '2.4rem', height = '2.4rem' }) => (
     </svg>
 );
 
-export const PlusIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 16 16'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const PlusIcon = () => (
+    <svg viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -62,14 +38,8 @@ export const PlusIcon = ({ width = '2rem', height = '2rem' }) => (
     </svg>
 );
 
-export const MessagesIcon = ({ width = '2.6rem', height = '2.6rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const MessagesIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -78,14 +48,8 @@ export const MessagesIcon = ({ width = '2.6rem', height = '2.6rem' }) => (
     </svg>
 );
 
-export const InboxIcon = ({ width = '3.2rem', height = '3.2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 32 32'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const InboxIcon = () => (
+    <svg viewBox='0 0 32 32' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -94,14 +58,8 @@ export const InboxIcon = ({ width = '3.2rem', height = '3.2rem' }) => (
     </svg>
 );
 
-export const UserIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const UserIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -109,14 +67,8 @@ export const UserIcon = ({ width = '2rem', height = '2rem' }) => (
         ></path>
     </svg>
 );
-export const CoinIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 20 20'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const CoinIcon = () => (
+    <svg viewBox='0 0 20 20' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -129,14 +81,8 @@ export const CoinIcon = ({ width = '2rem', height = '2rem' }) => (
         ></path>
     </svg>
 );
-export const SettingIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const SettingIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -144,14 +90,8 @@ export const SettingIcon = ({ width = '2rem', height = '2rem' }) => (
         ></path>
     </svg>
 );
-export const LetterIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const LetterIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -159,14 +99,8 @@ export const LetterIcon = ({ width = '2rem', height = '2rem' }) => (
         ></path>
     </svg>
 );
-export const HelpIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const HelpIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -174,14 +108,8 @@ export const HelpIcon = ({ width = '2rem', height = '2rem' }) => (
         ></path>
     </svg>
 );
-export const KeyboardIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const KeyboardIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -189,14 +117,8 @@ export const KeyboardIcon = ({ width = '2rem', height = '2rem' }) => (
         ></path>
     </svg>
 );
-export const LogoutIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const LogoutIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -204,14 +126,8 @@ export const LogoutIcon = ({ width = '2rem', height = '2rem' }) => (
         ></path>
     </svg>
 );
-export const BackIcon = ({ width = '1.8rem', height = '1.8rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const BackIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -220,14 +136,8 @@ export const BackIcon = ({ width = '1.8rem', height = '1.8rem' }) => (
     </svg>
 );
 
-export const MoreIcon = ({ width = '2rem', height = '2rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='currentColor'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const MoreIcon = () => (
+    <svg viewBox='0 0 48 48' fill='currentColor' xmlns='http://www.w3.org/2000/svg'>
         <path
             fillRule='evenodd'
             clipRule='evenodd'
@@ -236,14 +146,8 @@ export const MoreIcon = ({ width = '2rem', height = '2rem' }) => (
     </svg>
 );
 
-export const VerifyBadgeIcon = ({ width = '1.4rem', height = '1.4rem' }) => (
-    <svg
-        width={width}
-        height={height}
-        viewBox='0 0 48 48'
-        fill='none'
-        xmlns='http://www.w3.org/2000/svg'
-    >
+export const VerifyBadgeIcon = () => (
+    <svg viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'>
         <circle cx='24' cy='24' r='24' fill='#20D5EC'></circle>
         <path
             fillRule='evenodd'
@@ -251,5 +155,11 @@ export const VerifyBadgeIcon = ({ width = '1.4rem', height = '1.4rem' }) => (
             d='M37.1213 15.8787C38.2929 17.0503 38.2929 18.9497 37.1213 20.1213L23.6213 33.6213C22.4497 34.7929 20.5503 34.7929 19.3787 33.6213L10.8787 25.1213C9.70711 23.9497 9.70711 22.0503 10.8787 20.8787C12.0503 19.7071 13.9497 19.7071 15.1213 20.8787L21.5 27.2574L32.8787 15.8787C34.0503 14.7071 35.9497 14.7071 37.1213 15.8787Z'
             fill='white'
         ></path>
+    </svg>
+);
+
+export const FacebookIcon = ({ width = '4rem', height = '4rem' }) => (
+    <svg width={width} height={height} xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'>
+        <path d='M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z' />
     </svg>
 );

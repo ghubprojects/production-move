@@ -5,7 +5,7 @@ import classNames from 'classnames/bind';
 
 import styles from './Search.module.scss';
 import config from '~/config/';
-import * as searchService from '~/services/searchService';
+// import * as searchService from '~/services/searchService';
 import { useDebounce } from '~/hooks';
 import Popper from '~/components/Popper';
 import AccountItem from '~/components/AccountItem/';
@@ -31,8 +31,8 @@ function Search() {
 
         const fetchApi = async () => {
             setLoading(true);
-            const result = await searchService.search(debouncedValue);
-            setSearchResults(result);
+            // const result = await searchService.search(debouncedValue);
+            // setSearchResults(result);
             setLoading(false);
         };
 

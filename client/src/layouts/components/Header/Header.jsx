@@ -51,7 +51,7 @@ const profileOptions = [
 ];
 
 function Header() {
-    let currentUser = true;
+    let currentUser = false;
 
     const handleOptionsChange = (optionItem) => {
         switch (optionItem.type) {
@@ -74,21 +74,26 @@ function Header() {
                 <Search />
 
                 <div className={cx('actions')}>
-                    <Button text to={config.routes.accounts} className={cx('accounts')}>
-                        <span>Accounts Management</span>
+                    <Button primary medium to={config.routes.manageAccounts} className='mx-4'>
+                        Manage Accounts
                     </Button>
-
                     {currentUser ? (
+                        <Button primary medium to={config.routes.manageAccounts}>
+                            Manage Accounts
+                        </Button>
+                    ) : (
+                        <Button primary medium to={config.routes.login}>
+                            Login
+                        </Button>
+                    )}
+
+                    {currentUser && (
                         <Tippy content='Inbox' placement='bottom' delay={[0, 100]}>
                             <span className={cx('inbox')}>
                                 <InboxIcon />
                                 <span className={cx('badge')}>20</span>
                             </span>
                         </Tippy>
-                    ) : (
-                        <Button primary className={cx('login')}>
-                            Log in
-                        </Button>
                     )}
 
                     <OptionsPopper

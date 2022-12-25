@@ -1,8 +1,9 @@
 const routes = {
     home: '/',
+    login: '/login',
     profile: '/@:nickname',
     search: '/search',
-    accounts: '/accounts',
+    manageAccounts: '/manage-accounts',
 };
 
 export default routes;

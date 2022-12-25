@@ -1,83 +1,63 @@
 .wrapper {
-    display: flex;
-    align-items: center;
-
-    font-family: var(--font-proxima-nova);
-    font-size: 1.6rem;
-    font-weight: 600;
-
-    cursor: pointer;
-    user-select: none;
+    @apply flex space-x-2 justify-center items-center font-medium;
+    .string {
+        @apply mt-0.5;
+    }
 }
 
+// Primary Button
 .primary {
-    min-width: 100px;
-    min-height: 36px;
-    padding: 6px 8px;
-    border-radius: 4px;
-
-    color: white;
-    background: var(--primary);
-    border: none;
-    font-weight: 700;
-
-    &:hover {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
-    }
+    @apply bg-indigo-600 text-white hover:bg-indigo-700;
 }
 
-.text {
-    border-radius: 2px;
-    border: 1px solid rgba(22, 24, 35, 0.12);
-    font-weight: 600;
-
-    &:hover {
-        background: rgba(22, 24, 35, 0.03);
-    }
+.primary.disabled {
+    @apply bg-indigo-600/[.5] text-white pointer-events-none;
 }
 
+// Soft Button
+.soft {
+    @apply bg-indigo-100 text-indigo-600 hover:bg-indigo-200;
+}
+
+.soft.disabled {
+    @apply bg-indigo-100 text-indigo-600/[.5] pointer-events-none;
+}
+
+// Outline Button
 .outline {
-    min-width: 88px;
-    min-height: 28px;
-    border-radius: 4px;
+    @apply border-2 border-gray-900/[.12] text-gray-900 hover:bg-gray-900/[.08];
+}
 
-    color: var(--primary);
-    background: white;
-    border: 1px solid var(--primary);
-    font-weight: 600;
+.outline.disabled {
+    @apply border-2 border-gray-900/[.12] text-gray-900/[.32] pointer-events-none;
+}
 
-    &:hover {
-        background: rgba(254, 44, 85, 0.06);
+// Text Button
+.text {
+    @apply text-gray-900 hover:bg-gray-900/[.08];
+}
+
+.text.disabled {
+    @apply text-gray-900/[.32] pointer-events-none;
+}
+
+// Size of Button
+.large {
+    @apply px-8 py-3.5 text-base rounded-lg flex;
+    .icon {
+        @apply w-5;
+    }
+}
+.medium {
+    @apply px-5 py-2 text-sm rounded-md flex;
+    .icon {
+        @apply w-5;
     }
 }
 
-.round {
-    min-width: 90px;
-    height: 32px;
-    padding: 0 8px;
-    border-radius: 52px;
-
-    color: rgba(22, 24, 35, 0.75);
-    background: white;
-    border: 1px solid rgba(22, 24, 35, 0.12);
-    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
-
-    font-size: 1.4rem;
-    font-weight: 700;
-
-    &:hover {
-        background: rgba(22, 24, 35, 0.03);
-        border-color: rgba(22, 24, 35, 0.2);
-    }
-}
-
-.disabled {
-    cursor: not-allowed;
-    color: rgba(22, 24, 35, 0.34);
-    background: rgba(235, 235, 235, 1);
-    border-color: rgba(235, 235, 235, 1);
-
-    &:hover {
-        background: rgba(235, 235, 235, 1);
+.small {
+    @apply px-4 py-1.5 text-sm rounded-md;
+    .icon {
+        @apply w-4;
     }
 }

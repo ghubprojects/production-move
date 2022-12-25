@@ -2,7 +2,7 @@ module.exports = {
     HOST: 'localhost',
     USER: 'root',
     PASSWORD: 'MyAl1705!!!',
-    DB: 'my-express-app',
+    DB: 'production_move',
     dialect: 'mysql',
     pool: {
         max: 5,

@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className={cx('container')}>
             <div className={cx('wrapper')}>
-                <h2>Home page</h2>
+                <div className='text-4xl font-bold m-4'>Home Page</div>
             </div>
         </div>
     );

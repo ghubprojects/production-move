@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import styles from './Footer.module.scss';
 import images from '~/assets/images';
 import config from '~/config/';
-import Button from '~/components/Button';
 import Image from '~/components/Image';
+import Button from '~/components/Button';
 import { PlusIcon } from '~/components/Icons';
 
 const cx = classNames.bind(styles);
@@ -18,11 +18,8 @@ function Footer() {
                     <Image src={images.logo} alt='tiktok-logo' />
                 </Link>
                 <h1>Footer</h1>
-                <Button text to={config.routes.upload} className={cx('upload')}>
-                    <span className={cx('plus')}>
-                        <PlusIcon />
-                    </span>
-                    <span className={cx('upload-text')}>Upload</span>
+                <Button primary medium to={config.routes.upload} leftIcon={<PlusIcon />}>
+                    Upload
                 </Button>
             </div>
         </footer>

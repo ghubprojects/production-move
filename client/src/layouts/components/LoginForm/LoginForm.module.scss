@@ -1,0 +1,29 @@
+.loginForm {
+    width: 800px;
+    height: 1000px;
+    padding: 10rem 3rem;
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.signIn {
+    text-align: center;
+}
+.inputGroup {
+    margin: 2rem 0rem;
+}
+.inputBar {
+    padding: 0rem 0.2rem;
+    margin: 0.5rem 0rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    width: 34rem;
+    height: 3.5rem;
+}
+.submit-button {
+    @apply w-full;
+}
+.forgotPass {
+    text-align: right;
+}

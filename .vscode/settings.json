@@ -4,5 +4,5 @@
     "[xml]": {
         "editor.defaultFormatter": "redhat.vscode-xml"
     },
-    "cSpell.words": ["tippyjs"]
+    "cSpell.words": ["nums", "tippyjs", "uuidv"]
 }
