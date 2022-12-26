@@ -4,6 +4,7 @@ const routes = {
     profile: '/@:nickname',
     search: '/search',
     manageAccounts: '/manage-accounts',
+    adminProductList: '/admin/product-list',
 };
 
 export default routes;

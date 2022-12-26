@@ -9,6 +9,7 @@ import Login from '~/pages/Login';
 import Profile from '~/pages/Profile';
 import Search from '~/pages/Search';
 import ManageAccounts from '~/pages/ManageAccounts';
+import AdminProductList from '~/pages/Admin/ProductList';
 
 const publicRoutes = [
     { path: config.routes.home, component: Home },
@@ -16,6 +17,7 @@ const publicRoutes = [
     { path: config.routes.profile, component: Profile },
     { path: config.routes.search, component: Search, layout: HeaderOnly },
     { path: config.routes.manageAccounts, component: ManageAccounts, layout: HeaderOnly },
+    { path: config.routes.adminProductList, component: AdminProductList, layout: HeaderOnly },
 ];
 
 const privateRoutes = [];
