@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import config from '~/config/';
-import ProductThumnail from '~/components/ProductThumnail';
+import Product from '~/components/Product';
 import Checkbox from '~/components/Checkbox';
 import styles from './ProductList.module.scss';
 
@@ -22,18 +22,24 @@ export default function AdminProductList() {
             </div>
             <div className={cx('right-side')}>
                 <div className={cx('result-container')}>
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
-                    <ProductThumnail />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
                 </div>
             </div>
         </div>
