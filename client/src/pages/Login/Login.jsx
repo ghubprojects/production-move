@@ -1,8 +1,6 @@
-import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './Login.module.scss';
-import Image from '~/components/Image';
-import images from '~/assets/images';
+import Logo from '~/components/Logo';
 import LoginForm from '~/layouts/components/LoginForm';
 
 const cx = classNames.bind(styles);
@@ -10,10 +8,10 @@ const cx = classNames.bind(styles);
 export default function Login() {
     return (
         <div className={cx('container')}>
-            <div className={cx('logo')}>
-                <Image w={500} h={500} src={images.logo} alt='tiktok-logo' />
+            <div className={cx('wrapper')}>
+                <Logo white className={cx('logo')} />
+                <LoginForm />
             </div>
-            <LoginForm />
         </div>
     );
 }

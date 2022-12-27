@@ -1,10 +1,14 @@
 .container {
-    display: flex;
+    @apply fixed inset-0 bg-gray-900;
+}
+
+.wrapper {
+    @apply mx-32 flex flex-row justify-center items-center gap-32;
     height: 100%;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 .logo {
-    margin: 0 8rem;
+    width: 22rem;
 }

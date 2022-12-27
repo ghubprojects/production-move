@@ -22,6 +22,7 @@ import {
     LogoutIcon,
     MoreIcon,
 } from '~/components/Icons';
+import Logo from '~/components/Logo';
 
 const cx = classNames.bind(styles);
 
@@ -67,8 +68,8 @@ function Header() {
     return (
         <header className={cx('container')}>
             <div className={cx('wrapper')}>
-                <Link to={config.routes.home} className={cx('logo')}>
-                    <Image src={images.logo} alt='logo' />
+                <Link to={config.routes.home}>
+                    <Logo indigo className={cx('logo')} />
                 </Link>
 
                 <Search />

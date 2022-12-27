@@ -6,6 +6,7 @@ import { HeaderOnly, Main } from '~/layouts';
 //Pages
 import Home from '~/pages/Home';
 import Login from '~/pages/Login';
+import PassRecovery from '~/pages/PassRecovery';
 import Profile from '~/pages/Profile';
 import Search from '~/pages/Search';
 import ManageAccounts from '~/pages/ManageAccounts';
@@ -13,6 +14,7 @@ import ManageAccounts from '~/pages/ManageAccounts';
 const publicRoutes = [
     { path: config.routes.home, component: Home },
     { path: config.routes.login, component: Login, layout: Main },
+    { path: config.routes.passRecovery, component: PassRecovery, layout: Main },
     { path: config.routes.profile, component: Profile },
     { path: config.routes.search, component: Search, layout: HeaderOnly },
     { path: config.routes.manageAccounts, component: ManageAccounts, layout: HeaderOnly },

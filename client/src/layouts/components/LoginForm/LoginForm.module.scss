@@ -1,29 +1,39 @@
-.loginForm {
-    width: 800px;
-    height: 1000px;
-    padding: 10rem 3rem;
+.container {
+    @apply bg-white rounded-3xl;
+    width: 500px;
+}
 
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    border-radius: 5%;
+.wrapper {
+    @apply px-20 py-24;
 }
-.signIn {
-    text-align: center;
+
+.header {
+    @apply mb-12 flex flex-col gap-3;
+    .title {
+        @apply text-4xl font-semibold;
+    }
+    .text {
+        @apply text-base text-indigo-600;
+    }
 }
-.inputGroup {
-    margin: 2rem 0rem;
+
+.form-wrapper {
+    @apply flex flex-col;
 }
-.inputBar {
-    padding: 0rem 0.2rem;
-    margin: 0.5rem 0rem;
-    border-radius: 0.5rem;
-    border: 1px solid black;
-    width: 34rem;
-    height: 3.5rem;
+
+.form {
+    @apply flex flex-col gap-4;
+    .form-input {
+        @apply flex flex-col gap-4;
+    }
+    .submit-btn {
+        @apply w-full;
+    }
 }
-.submit-button {
-    @apply w-full;
-}
+
 .forgotPass {
-    text-align: right;
+    @apply mt-1 text-right;
+    .forgotPass-link {
+        @apply text-xs text-indigo-600;
+    }
 }

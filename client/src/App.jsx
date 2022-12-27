@@ -4,29 +4,30 @@ import { publicRoutes } from '~/routes';
 import DefaultLayout from '~/layouts';
 
 function App() {
+    const createPages = (routes) =>
+        routes.map((route, key) => {
+            let Layout = DefaultLayout;
+            if (route.layout) Layout = route.layout;
+            else if (route.layout === null) Layout = Fragment;
+
+            const Page = route.component;
+            return (
+                <Route
+                    key={key}
+                    path={route.path}
+                    element={
+                        <Layout>
+                            <Page />
+                        </Layout>
+                    }
+                />
+            );
+        });
+
     return (
         <BrowserRouter>
             <div className='App'>
-                <Routes>
-                    {publicRoutes.map((route, key) => {
-                        let Layout = DefaultLayout;
-                        if (route.layout) Layout = route.layout;
-                        else if (route.layout === null) Layout = Fragment;
-
-                        const Page = route.component;
-                        return (
-                            <Route
-                                key={key}
-                                path={route.path}
-                                element={
-                                    <Layout>
-                                        <Page />
-                                    </Layout>
-                                }
-                            />
-                        );
-                    })}
-                </Routes>
+                <Routes>{createPages(publicRoutes)}</Routes>
             </div>
         </BrowserRouter>
     );

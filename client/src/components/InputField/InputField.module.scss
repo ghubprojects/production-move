@@ -1,0 +1,68 @@
+.wrapper {
+    @apply flex items-center font-normal;
+}
+
+.field {
+    @apply flex flex-col gap-1 w-full;
+}
+
+.input-field {
+    @apply flex flex-row items-center gap-2 border-2 border-gray-900/[.12]
+        hover:border-gray-900/[.3]
+        focus-within:border-indigo-600 focus-within:hover:border-indigo-600;
+    .input {
+        @apply w-full placeholder-gray-900/[.4] text-gray-900;
+    }
+    .icon {
+        @apply text-gray-900/[.4];
+    }
+}
+
+.input-field.valid:not(.invalid) {
+    @apply border-indigo-600;
+}
+
+.input-field.invalid {
+    @apply text-red-500 border-red-500
+    focus-within:border-red-500 focus-within:hover:border-red-500;
+}
+
+.error-field {
+    @apply flex text-xs text-red-500;
+}
+
+// Size of InputField
+.large {
+    .input-field {
+        @apply px-4 py-1.5 rounded-lg text-sm;
+        .input {
+            @apply py-2;
+        }
+        .icon {
+            @apply w-5;
+        }
+    }
+}
+.medium {
+    .input-field {
+        @apply px-3 py-1 rounded-md text-sm;
+        .input {
+            @apply py-1;
+        }
+        .icon {
+            @apply w-4;
+        }
+    }
+}
+
+.small {
+    .input-field {
+        @apply px-3 py-1 rounded-md text-xs;
+        .input {
+            @apply py-0.5;
+        }
+        .icon {
+            @apply w-4;
+        }
+    }
+}
