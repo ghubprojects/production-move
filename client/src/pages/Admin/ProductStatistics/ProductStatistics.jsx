@@ -6,40 +6,68 @@ import Product from '~/components/Product';
 import Checkbox from '~/components/Checkbox';
 import styles from './ProductStatistics.module.scss';
 
+import Navbar from '~/components/Navbar';
+import { MenuData } from '../MenuData';
+import SearchBar from '~/components/SearchBar/SearchBar';
+import BookData from './Data.json';
+
 const cx = classNames.bind(styles);
 
 export default function AdminProductStatistics() {
     return (
         <div className={cx('container')}>
-            <div className={cx('left-side')}>
-                <span style={{ fontWeight: 'bold' }}> Dòng sản phẩm</span>
-                <div className={cx('check-box')}>
-                    <Checkbox id='ASUS' />
-                    <Checkbox id='ACER' />
-                    <Checkbox id='HP' />
-                    <Checkbox id='DELL' />
-                </div>
+            <div>
+                <Navbar props={MenuData} />
             </div>
-            <div className={cx('right-side')}>
-                <div className={cx('result-container')}>
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
+            <div className={cx('wrapper')}>
+                <div className={cx('left-side')}>
+                    <div>
+                        <span style={{ fontWeight: 'bold' }}> Theo trạng thái</span>
+                        <div className={cx('check-box')}>
+                            <Checkbox id='Chưa bán' />
+                            <Checkbox id='Đã bán' />
+                            <Checkbox id='Đang bảo hành' />
+                            <Checkbox id='Đã trả về cơ sở sản xuất' />
+                        </div>
+                    </div>
+                    <div>
+                        <span style={{ fontWeight: 'bold' }}> Theo cơ sở sản xuất</span>
+                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
+                    </div>
+                    <div>
+                        <span style={{ fontWeight: 'bold' }}> Theo đại lý phân phối</span>
+                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
+                    </div>
+                    <div>
+                        <span style={{ fontWeight: 'bold' }}> Theo trung tâm bảo hành</span>
+                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
+                    </div>
+                    <div>
+                        <span style={{ fontWeight: 'bold' }}> Theo đại lý phân phối</span>
+                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
+                    </div>
+                </div>
+                <div className={cx('right-side')}>
+                    <div className={cx('result-container')}>
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                    </div>
                 </div>
             </div>
         </div>

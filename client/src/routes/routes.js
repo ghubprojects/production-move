@@ -11,6 +11,7 @@ import Search from '~/pages/Search';
 import ManageAccounts from '~/pages/ManageAccounts';
 import AdminProductList from '~/pages/Admin/ProductList';
 import HomeLayout from '~/layouts/HomeLayout';
+import AdminProductStatistics from '~/pages/Admin/ProductStatistics/ProductStatistics';
 
 const publicRoutes = [
     { path: config.routes.home, component: Home, layout: HomeLayout },
@@ -19,6 +20,11 @@ const publicRoutes = [
     { path: config.routes.search, component: Search, layout: HeaderOnly },
     { path: config.routes.manageAccounts, component: ManageAccounts, layout: HeaderOnly },
     { path: config.routes.adminProductList, component: AdminProductList, layout: HeaderOnly },
+    {
+        path: config.routes.adminProductStatistics,
+        component: AdminProductStatistics,
+        layout: HeaderOnly,
+    },
 ];
 
 const privateRoutes = [];
