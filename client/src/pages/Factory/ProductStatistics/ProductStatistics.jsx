@@ -14,7 +14,7 @@ import BarChart from '~/components/Barchart/BarChart';
 
 const cx = classNames.bind(styles);
 
-export default function AdminProductStatistics() {
+export default function FactoryProductStatistics() {
     return (
         <div className={cx('container')}>
             <div>
