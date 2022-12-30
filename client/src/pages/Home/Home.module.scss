@@ -13,3 +13,121 @@
     height: 100%;
     padding: 0 24px 0 20px;
 }
+
+.product-params {
+    @apply px-4 py-2 flex flex-col gap-4;
+    .product-params-title {
+        @apply flex;
+
+        .title {
+            @apply border-0 rounded-none;
+        }
+        .id {
+            @apply w-10;
+        }
+
+        .fullname {
+        }
+
+        .role {
+        }
+
+        .email {
+            @apply w-60;
+        }
+
+        .password {
+        }
+
+        .address {
+        }
+    }
+    .product-params-item {
+        @apply flex;
+        .info {
+            @apply flex;
+            .field {
+                @apply border-0 rounded-none;
+            }
+            .id {
+                @apply w-10;
+            }
+
+            .fullname {
+            }
+
+            .role {
+            }
+
+            .email {
+                @apply w-60;
+            }
+
+            .password {
+            }
+
+            .address {
+                @apply w-36;
+            }
+        }
+    }
+}
+
+.product-infos {
+    @apply px-4 py-2 flex flex-col gap-4;
+    .product-infos-title {
+        @apply flex;
+
+        .title {
+            @apply border-0 rounded-none;
+        }
+        .id {
+            @apply w-10;
+        }
+
+        .fullname {
+        }
+
+        .role {
+        }
+
+        .email {
+            @apply w-60;
+        }
+
+        .password {
+        }
+
+        .address {
+        }
+    }
+    .product-infos-item {
+        @apply flex;
+        .info {
+            @apply flex;
+            .field {
+                @apply border-0 rounded-none;
+            }
+            .id {
+                @apply w-10;
+            }
+
+            .fullname {
+            }
+
+            .role {
+            }
+
+            .email {
+                @apply w-60;
+            }
+
+            .password {
+            }
+
+            .address {
+                @apply w-36;
+            }
+        }
+    }
+}

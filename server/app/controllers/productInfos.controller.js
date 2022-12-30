@@ -1,6 +1,6 @@
 /* const { v4: uuidv4 } = require('uuid'); */
 const db = require('../models');
-const Account = db.accounts;
+const ProductInfos = db.productInfos;
 const Op = db.Sequelize.Op;
 
 exports.create = (req, res) => {
@@ -10,9 +10,9 @@ exports.create = (req, res) => {
         return;
     }
 
-    const account = { ...req.body };
-    console.log(account);
-    Account.create(account)
+    const productInfos = { ...req.body };
+    console.log(productInfos);
+    ProductInfos.create(productInfos)
         .then((data) => {
             console.log(data);
             res.send(data);
@@ -26,26 +26,26 @@ exports.find = (req, res) => {
     for (let key in queries)
         conditions[key] = queries[key] ? { [Op.like]: `${queries[key]}` } : null;
 
-    Account.findAll({ where: conditions })
+    ProductInfos.findAll({ where: conditions })
         .then((data) => res.send(data))
         .catch((err) => res.status(500).send({ message: err.message }));
 };
 
 exports.update = (req, res) => {
     console.log('i am lost in updating');
-    const id = req.params.id;
+    const id = req.Infos.id;
 
-    Account.update(req.body, { where: { id } })
+    ProductInfos.update(req.body, { where: { id } })
         .then((num) =>
             num == 1
-                ? res.send({ message: 'Account was updated successfully.' })
+                ? res.send({ message: 'ProductInfos was updated successfully.' })
                 : res.send({
-                      message: `Cannot update Account with id=${id}. Maybe Account was not found or req.body is empty!`,
+                      message: `Cannot update ProductInfos with id=${id}. Maybe ProductInfos was not found or req.body is empty!`,
                   }),
         )
         .catch((err) =>
             res.status(500).send({
-                message: 'Error updating Account with id=' + id,
+                message: 'Error updating ProductInfos with id=' + id,
             }),
         );
 };
@@ -58,13 +58,13 @@ exports.delete = (req, res) => {
         conditions[key] = queries[key] ? { [Op.like]: `${queries[key]}` } : null;
     console.log(conditions);
 
-    Account.destroy({ where: conditions })
-        .then((num) => res.send({ message: 'Accounts was deleted successfully!' }))
+    ProductInfos.destroy({ where: conditions })
+        .then((num) => res.send({ message: 'ProductInfos was deleted successfully!' }))
         .catch((err) => res.status(500).send({ message: err.message }));
 };
 
 exports.deleteAll = (req, res) => {
-    Account.destroy({ where: {}, truncate: false })
-        .then((nums) => res.send({ message: `${nums} accounts were deleted successfully!` }))
+    ProductInfos.destroy({ where: {}, truncate: false })
+        .then((nums) => res.send({ message: `${nums} ProductInfos were deleted successfully!` }))
         .catch((err) => res.status(500).send({ message: err.message }));
 };

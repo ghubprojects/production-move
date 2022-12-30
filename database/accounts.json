@@ -1,0 +1,58 @@
+[
+	{
+		"fullname": "Pham Bich Ngoc",
+		"role": "admin",
+		"email": "ngocngoc@gmail.com",
+		"password": "123123",
+		"address": "Ha Noi"
+	},
+	{
+		"fullname": "Tang The Anh",
+		"role": "admin",
+		"email": "anhadmin@gmail.com",
+		"password": "123123",
+		"address": "Ha Noi"
+	},
+	{
+		"fullname": "Quan Vi Hoai Vu",
+		"role": "productionFacilities",
+		"email": "vu123@gmail.com",
+		"password": "123456",
+		"address": "Ha Tinh"
+	},
+	{
+		"fullname": "Le Tien Dat",
+		"role": "productionFacilities",
+		"email": "dat123123@gmail.com",
+		"password": "123456",
+		"address": "Nghe An"
+	},
+	{
+		"fullname": "Pham Khac Nghiem",
+		"role": "distributors",
+		"email": "nghiemzai@gmail.com",
+		"password": "123412",
+		"address": "Lang Giang"
+	},
+	{
+		"fullname": "Nguyen Van Manh",
+		"role": "distributors",
+		"email": "manhdat@gmail.com",
+		"password": "123123",
+		"address": "Bac Giang"
+	},
+	{
+		"fullname": "Nguyen Tien Dat",
+		"role": "serviceCenter",
+		"email": "dat12dat34@gmail.com",
+		"password": "123123",
+		"address": "Kien Giang"
+	},
+	{
+		"fullname": "Cao Van Bac",
+		"role": "serviceCenter",
+		"email": "levancaobac1@gmail.com",
+		"password": "123123",
+		"address": "Nghe An"
+	}
+]

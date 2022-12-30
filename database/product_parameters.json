@@ -1,0 +1,502 @@
+[
+	{
+		"productCode": 100340,
+		"productName": "Gigabyte Gaming G5 GE i5 12500H (51VN263SH)",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "1.9 kg"
+	},
+	{
+		"productCode": 100341,
+		"productName": "Asus TUF Gaming FX517ZC-HN077W i5 12450H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.0 kg"
+	},
+	{
+		"productCode": 100342,
+		"productName": "Lenovo Gaming IdeaPad 3 15IAH7 i5 12500H/82S900H2VN\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "16 GB (2 sticks of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.25 kg"
+	},
+	{
+		"productCode": 100343,
+		"productName": "Asus TUF Gaming FX517ZE-HN045W i5 12450H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 Ti 4GB",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "2.0 kg"
+	},
+	{
+		"productCode": 100344,
+		"productName": "Dell Inspiron 16 N5620 i5 1240P/N6I5003W1\r\n",
+		"screen": "16 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce MX570 2GB",
+		"RAM": "16 GB (2 sticks of 8GB)",
+		"SSD": "512 GB",
+		"weight": "1.97 kg"
+	},
+	{
+		"productCode": 100345,
+		"productName": "MSI Gaming Katana GF66 12UCK-805VN i7 12650H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i7",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.25 kg"
+	},
+	{
+		"productCode": 100346,
+		"productName": "Lenovo Yoga Slim 7 Pro 14IHU5O i5 11300H/82NH00AFVN\r\n",
+		"screen": "14 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "16 GB ",
+		"SSD": "512 GB",
+		"weight": "1.4 kg"
+	},
+	{
+		"productCode": 100347,
+		"productName": "Laptop Lenovo IdeaPad 5 Pro 16IAH7 i7-12700H/82SK008CVN\r\n",
+		"screen": "16 inch",
+		"CPU": "Core i7",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "16 GB (2 sticks of 8GB)",
+		"SSD": "512 GB",
+		"weight": "1.95 kg"
+	},
+	{
+		"productCode": 100348,
+		"productName": "Asus Gaming TUF FX517ZM-HN480W i7 12650H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i7",
+		"VGA": "NVIDIA GeForce RTX 3060 6GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.0 kg"
+	},
+	{
+		"productCode": 100349,
+		"productName": "Acer Nitro Gaming 5 AN515-58-52SP i5 12500H (NH.QFHSV.001)\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.5 kg"
+	},
+	{
+		"productCode": 100350,
+		"productName": "Asus TUF Gaming FX506LHB-HN188W i5 10300H",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce GTX 1650 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.3 kg"
+	},
+	{
+		"productCode": 100351,
+		"productName": "MSI Gaming GF63 Thin 11SC-1090VN i5 11400H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce GTX 1650 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "1.86 kg"
+	},
+	{
+		"productCode": 100352,
+		"productName": "MSI Modern 14 B11MOU-1028VN i3 1115G4\r\n",
+		"screen": "14 inch",
+		"CPU": "Core i3",
+		"VGA": "Intel UHD Graphics",
+		"RAM": "8 GB ",
+		"SSD": "256 GB",
+		"weight": "1.3 kg"
+	},
+	{
+		"productCode": 100353,
+		"productName": "HP 15s-fq2663TU i3 1115G4/6K796PA\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i3",
+		"VGA": "Intel UHD Graphics",
+		"RAM": "4 GB (1 stick of 4GB)",
+		"SSD": "256 GB",
+		"weight": "1.7 kg"
+	},
+	{
+		"productCode": 100354,
+		"productName": "Asus Vivobook X515EA-BR2045W i3 1115G4\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i3",
+		"VGA": "Intel UHD Graphics",
+		"RAM": "4 GB",
+		"SSD": "512 GB",
+		"weight": "1.8 kg"
+	},
+	{
+		"productCode": 100355,
+		"productName": "Asus Gaming ROG G513IC-HN729W R7 4800H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Ryzen 7",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.1 kg"
+	},
+	{
+		"productCode": 100356,
+		"productName": "MSI Gaming GF63 Thin 11SC-663VN i7 11800H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i7",
+		"VGA": "NVIDIA GeForce GTX 1650 Max-Q 4GB",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "1.86 kg"
+	},
+	{
+		"productCode": 100357,
+		"productName": "Acer Nitro Gaming AN515-57-54MV i5 11400H (NH.QENSV.003)\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.2 kg"
+	},
+	{
+		"productCode": 100358,
+		"productName": "MSI GF63 Thin 11UC 444VN i5 11400H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "1.86 kg"
+	},
+	{
+		"productCode": 100359,
+		"productName": "Asus TUF Gaming FA506IHRB-HN019W R5 4600H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Ryzen 5",
+		"VGA": "NVIDIA GeForce GTX 1650 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.3 kg"
+	},
+	{
+		"productCode": 100360,
+		"productName": "Asus Vivobook M1403QA-LY022W R5 5600H\r\n",
+		"screen": "14 inch",
+		"CPU": "Ryzen 5",
+		"VGA": "AMD Radeon Graphics",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "1.6 kg"
+	},
+	{
+		"productCode": 100361,
+		"productName": "MSI Modern 15 A5M 235VN R7 5700U Win 11\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Ryzen 7",
+		"VGA": "AMD Radeon Graphics",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "1.6 kg"
+	},
+	{
+		"productCode": 100362,
+		"productName": "Lenovo IdeaPad 3 14IAU7 i5-1235U/(82RJ001DVN)\r\n",
+		"screen": "14 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "1.63 kg"
+	},
+	{
+		"productCode": 100363,
+		"productName": "HP Pavilion 15-eg2057TU i5 1240P/6K787PA\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (2 sticks of 4GB)",
+		"SSD": "512 GB",
+		"weight": "1.702 kg"
+	},
+	{
+		"productCode": 100364,
+		"productName": "Asus Vivobook M1503QA-L1026W R5 5600H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Ryzen 5",
+		"VGA": "AMD Radeon Graphics",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "1.7 kg"
+	},
+	{
+		"productCode": 100365,
+		"productName": "Lenovo IdeaPad 5 Pro 16IAH7 i5 12500H/82SK008BVN\r\n",
+		"screen": "16 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "16 GB (1 stick of 16GB)",
+		"SSD": "512 GB",
+		"weight": "1.95 kg"
+	},
+	{
+		"productCode": 100366,
+		"productName": "MSI Modern 14 B11MOU-1031VN i7 1195G7\r\n",
+		"screen": "14 inch",
+		"CPU": "Core i7",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "1.3 kg"
+	},
+	{
+		"productCode": 100367,
+		"productName": "HP Pavilion 14-dv2034TU i5 1235U (6K770PA)\r\n",
+		"screen": "16 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (2 sticks of 4GB)",
+		"SSD": "512 GB",
+		"weight": "1.41 kg"
+	},
+	{
+		"productCode": 100368,
+		"productName": "Lenovo ThinkBook 14 G2 ITL i5 1135G7/20VD00Y4VN\r\n",
+		"screen": "14 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "1.4 kg"
+	},
+	{
+		"productCode": 100369,
+		"productName": "MSI Gaming Katana GF66 12UCK-815VN i5 12450H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.25 kg"
+	},
+	{
+		"productCode": 100370,
+		"productName": "Asus TUF Gaming FX507ZE-HN093W i7 12700H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i7",
+		"VGA": "NVIDIA GeForce RTX 3050 Ti 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.2 kg"
+	},
+	{
+		"productCode": 100371,
+		"productName": "Lenovo Gaming Legion 5 15ARH7 R5 6600H/82RE002VVN\n",
+		"screen": "15.6 inch",
+		"CPU": "Ryzen 5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.35 kg"
+	},
+	{
+		"productCode": 100372,
+		"productName": "Asus Vivobook A515EA-BQ3013W i3 1115G4\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i3",
+		"VGA": "Intel UHD Graphics",
+		"RAM": "8 GB ",
+		"SSD": "256 GB",
+		"weight": "1.8 kg"
+	},
+	{
+		"productCode": 100373,
+		"productName": "MSI Modern 14 B11MOU-1030VN i3 1115G4/8GB/256GB/14\"FHD/Win 11\n",
+		"screen": "14 inch",
+		"CPU": "Core i3",
+		"VGA": "Intel UHD Graphics",
+		"RAM": "8 GB ",
+		"SSD": "256 GB",
+		"weight": "1.3 kg"
+	},
+	{
+		"productCode": 100374,
+		"productName": "MSI Gaming GF63 Thin 11SC-666VN i5 11400H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce GTX 1650 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "1.86 kg"
+	},
+	{
+		"productCode": 100375,
+		"productName": "Asus Expertbook B1400CEAE-EB3182W i5 1135G7",
+		"screen": "14 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "1.452 kg"
+	},
+	{
+		"productCode": 100376,
+		"productName": "HP Pavilion 15-eg2058TU i5-1240P/6K788PA\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (2 sticks of 4GB)",
+		"SSD": "256 GB",
+		"weight": "1.702 kg"
+	},
+	{
+		"productCode": 100377,
+		"productName": "HP 15s-fq5080TU i5-1235U/6K7A0PA\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (2 sticks of 4GB)",
+		"SSD": "256 GB",
+		"weight": "1.69 kg"
+	},
+	{
+		"productCode": 100378,
+		"productName": "HP 15s-fq5145TU i7-1255U/76B24PA\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i7",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (2 sticks of 4GB)",
+		"SSD": "256 GB",
+		"weight": "1.69 kg"
+	},
+	{
+		"productCode": 100379,
+		"productName": "Asus Vivobook X415E-EK1387W i3 1115G4\r\n",
+		"screen": "14 inch",
+		"CPU": "Core i3",
+		"VGA": "Intel UHD Graphics",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "256 GB",
+		"weight": "1.6 kg"
+	},
+	{
+		"productCode": 100380,
+		"productName": "HP Pavilion 14-dv2035TU i5 1235U/6K771PA\r\n",
+		"screen": "14 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (2 sticks of 4GB)",
+		"SSD": "256 GB",
+		"weight": "1.41 kg"
+	},
+	{
+		"productCode": 100381,
+		"productName": "Dell Gaming G15 5515 R7 5800H (70266674)\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Ryzen 7",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.81 kg"
+	},
+	{
+		"productCode": 100382,
+		"productName": "Dell Gaming G15 5511 i5 11400H (70266676)\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB ",
+		"SSD": "256 GB",
+		"weight": "2.81 kg"
+	},
+	{
+		"productCode": 100383,
+		"productName": "Asus TUF Gaming FA507RC-HN051W R7 6800H\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Ryzen 7",
+		"VGA": "NVIDIA GeForce RTX 3050 4GB",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "512 GB",
+		"weight": "2.2 kg"
+	},
+	{
+		"productCode": 100384,
+		"productName": "Acer Nitro Gaming AN515-45-R6EV R5 5600H (NH.QBMSV.006)\n",
+		"screen": "15.6 inch",
+		"CPU": "Ryzen 5",
+		"VGA": "NVIDIA GeForce GTX 1650 4GB",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "2.2 kg"
+	},
+	{
+		"productCode": 100385,
+		"productName": "HP Pavilion 15-eg2055TU i7 1260P/6K785PA\r\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i7",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (2 sticks of 4GB)",
+		"SSD": "512 GB",
+		"weight": "1.72 kg"
+	},
+	{
+		"productCode": 100386,
+		"productName": "Lenovo Yoga 7-14ACN6 R7 5800U (82N7002LVN)\r\n",
+		"screen": "14 inch",
+		"CPU": "Ryzen 7",
+		"VGA": "AMD Radeon Graphics",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "1.45 kg"
+	},
+	{
+		"productCode": 100387,
+		"productName": "Dell Inspiron 14 N5420 i5 1235U (P157G001ASL)\r\n",
+		"screen": "14 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB (1 stick of 8GB)",
+		"SSD": "256 GB",
+		"weight": "1.55 kg"
+	},
+	{
+		"productCode": 100388,
+		"productName": "Acer Nitro Gaming AN515-57-5669 i5 11400H (NH.QEHSV.001)\n",
+		"screen": "15.6 inch",
+		"CPU": "Core i5",
+		"VGA": "NVIDIA GeForce GTX 1650 4GB",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "2.2 kg"
+	},
+	{
+		"productCode": 100389,
+		"productName": "HP Envy 13-ba1536TU i5 1135G7 (4U6M5PA)\r\n",
+		"screen": "13.3 inch",
+		"CPU": "Core i5",
+		"VGA": "Intel Iris Xe Graphics",
+		"RAM": "8 GB ",
+		"SSD": "512 GB",
+		"weight": "1.3 kg"
+	}
+]

@@ -29,10 +29,16 @@ function InputField({
     };
 
     return (
-        <div className={cx('wrapper', { large, medium, small }, className)}>
+        <div className={cx('wrapper', { large, medium, small })}>
             {label && <label className={cx('label')}>{label}</label>}
             <div className={cx('field')}>
-                <div className={cx('input-field', { valid: value, invalid: errorMessage })}>
+                <div
+                    className={cx(
+                        'input-field',
+                        { valid: value, invalid: errorMessage },
+                        className,
+                    )}
+                >
                     {leftIcon && <span className={cx('icon')}>{leftIcon}</span>}
                     <input className={cx('input')} {...props} />
                     {rightIcon && value && !errorMessage && (

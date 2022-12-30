@@ -8,7 +8,7 @@ import config from '~/config/';
 // import * as searchService from '~/services/searchService';
 import { useDebounce } from '~/hooks';
 import Popper from '~/components/Popper';
-import AccountItem from '~/components/AccountItem/';
+// import AccountItem from '~/components/AccountItem/';
 import { ClearIcon, LoadingIcon, SearchIcon } from '~/components/Icons';
 
 const cx = classNames.bind(styles);
@@ -63,13 +63,13 @@ function Search() {
                         <div className={cx('content-sug-item')}>Ket qua 2</div>
                         <div className={cx('content-sug-item')}>Ket qua 3</div>
                         <div className={cx('sug-account-title')}>Accounts</div>
-                        {searchResults.map((account) => (
-                            <AccountItem
+                        {searchResults.map((account) => ({
+                            /* <AccountItem
                                 key={account.id}
                                 data={account}
                                 className={cx('user-sug-item')}
-                            />
-                        ))}
+                            /> */
+                        }))}
                         <Link to={config.routes.search} className={cx('more-results')}>
                             View all results for "{searchValue}"
                         </Link>

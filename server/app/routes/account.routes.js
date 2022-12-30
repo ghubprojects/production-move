@@ -9,10 +9,10 @@ module.exports = (app) => {
     // Retrieve all Accounts
     router.get('/', accounts.find);
 
-    // Update a Account with userId
+    // Update a Account with id
     router.put('/:id', accounts.update);
 
-    // Delete a Account with userId
+    // Delete a Account with id
     router.delete('/', accounts.delete);
 
     // Delete all Accounts

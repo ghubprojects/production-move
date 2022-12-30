@@ -1,0 +1,27 @@
+.container {
+    @apply w-full bg-white rounded-3xl;
+}
+
+.wrapper {
+    @apply px-60 pt-10 pb-12 flex flex-col items-center;
+}
+
+.header {
+    @apply mb-6 flex flex-col gap-1 items-center;
+    .title {
+        @apply text-3xl font-semibold;
+    }
+    .text {
+        @apply text-base text-indigo-600;
+    }
+}
+
+.form {
+    @apply w-full flex flex-col gap-4;
+    .form-input {
+        @apply flex flex-col gap-4;
+    }
+    .submit-btn {
+        @apply w-full;
+    }
+}

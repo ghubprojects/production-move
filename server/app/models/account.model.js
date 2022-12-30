@@ -2,7 +2,7 @@ module.exports = (sequelize, Sequelize) => {
     const Account = sequelize.define(
         'account',
         {
-            name: {
+            fullname: {
                 type: Sequelize.STRING,
             },
             role: {

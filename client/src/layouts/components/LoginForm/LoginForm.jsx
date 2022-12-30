@@ -7,7 +7,7 @@ import config from '~/config/';
 import Button from '~/components/Button';
 import InputField from '~/components/InputField';
 import { KeyIcon, UserIcon } from '~/components/Icons';
-import AccountDataService from '~/services/account.service';
+import AccountDataService from '~/services/accountService';
 
 const cx = classNames.bind(styles);
 
@@ -70,17 +70,14 @@ export default function LoginForm() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        if (validate()) {
-            if (await authenticate()) navigate(config.routes.home);
+        if (validate() && (await authenticate())) {
+            navigate(config.routes.home);
         }
     };
 
-    const handleChange = (e) => {
-        const data = {
-            ...formData,
-            [e.target.name]: e.target.value.trim(),
-        };
-        setFormData(data);
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+        setFormData({ ...formData, [name]: value.trim() });
     };
 
     return (

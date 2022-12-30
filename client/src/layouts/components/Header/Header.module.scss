@@ -1,5 +1,5 @@
 .container {
-    @apply fixed top-0 flex justify-center bg-white w-full;
+    @apply fixed top-0 flex justify-center bg-white w-full z-50;
     height: var(--default-layout-header-height);
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
 }
@@ -66,4 +66,8 @@
 .more {
     display: flex;
     cursor: pointer;
+}
+
+.logo {
+    width: 154px;
 }

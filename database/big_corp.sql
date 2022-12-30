@@ -24,12 +24,12 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `account`
+-- Table structure for table `accounts`
 --
 
-CREATE TABLE `account` (
+CREATE TABLE `accounts` (
   `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
+  `fullname` varchar(50) NOT NULL,
   `role` enum('admin','productionFacilities','distributors','serviceCenter') NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(20) NOT NULL,
@@ -37,10 +37,10 @@ CREATE TABLE `account` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `account`
+-- Dumping data for table `accounts`
 --
 
-INSERT INTO `account` (`id`, `name`, `role`, `email`, `password`, `address`) VALUES
+INSERT INTO `accounts` (`id`, `fullname`, `role`, `email`, `password`, `address`) VALUES
 (1, 'Pham Bich Ngoc', 'admin', 'ngocngoc@gmail.com', '123123', 'Ha Noi'),
 (2, 'Tang The Anh', 'admin', 'anhadmin@gmail.com', '123123', 'Ha Noi'),
 (3, 'Quan Vi Hoai Vu', 'productionFacilities', 'vu123@gmail.com', '123456', 'Ha Tinh'),
