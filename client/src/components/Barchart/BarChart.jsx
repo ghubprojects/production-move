@@ -13,43 +13,52 @@ import { faker } from '@faker-js/faker';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-export const options = {
-    responsive: true,
-    plugins: {
-        legend: {
-            position: 'top',
+function BarChart({ minQuantity, maxQuantity }) {
+    const options = {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'top',
+            },
+            title: {
+                display: true,
+                text: 'Thống kê sản phẩm',
+            },
         },
-        title: {
-            display: true,
-            text: 'Chart.js Bar Chart',
-        },
-    },
-};
+    };
 
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+    const labels = [
+        'Mới sản xuất',
+        'Đưa về đại lý',
+        'Đã bán',
+        'Lỗi, cần bảo hành',
+        'Đang sửa chữa bảo hành',
+        'Đã bảo hành xong',
+        'Đã trả lại bảo hành cho khách hàng',
+        'Lỗi, cần trả về nhà máy',
+        'Lỗi, đã đưa về cơ sở sản xuất',
+        'Lỗi cần triệu hồi',
+        'Hết thời gian bảo hành',
+        'Trả lại cơ sở sản xuất',
+    ];
 
-export const data = {
-    labels,
-    datasets: [
-        {
-            label: 'Dataset 1',
-            data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
-        },
-        {
-            label: 'Dataset 2',
-            data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
-            backgroundColor: 'rgba(53, 162, 235, 0.5)',
-        },
-    ],
-};
-
-const BarChart = () => {
+    const data = {
+        labels,
+        datasets: [
+            {
+                label: 'Số lượng sản phẩm',
+                data: labels.map(() =>
+                    faker.datatype.number({ min: minQuantity, max: maxQuantity }),
+                ),
+                backgroundColor: 'rgba(53, 162, 235, 0.5)',
+            },
+        ],
+    };
     return (
         <div className='container'>
             <Bar options={options} data={data} />
         </div>
     );
-};
+}
 
 export default BarChart;

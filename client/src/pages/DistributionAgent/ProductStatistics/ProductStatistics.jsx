@@ -21,35 +21,8 @@ export default function DistributionProductStatistics() {
                 <Navbar props={MenuData} />
             </div>
             <div className={cx('wrapper')}>
-                <div className={cx('left-side')}>
-                    <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo trạng thái</span>
-                        <div className={cx('check-box')}>
-                            <Checkbox id='Chưa bán' />
-                            <Checkbox id='Đã bán' />
-                            <Checkbox id='Đang bảo hành' />
-                            <Checkbox id='Đã trả về cơ sở sản xuất' />
-                        </div>
-                    </div>
-                    <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo cơ sở sản xuất</span>
-                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
-                    </div>
-                    <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo đại lý phân phối</span>
-                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
-                    </div>
-                    <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo trung tâm bảo hành</span>
-                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
-                    </div>
-                    <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo đại lý phân phối</span>
-                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
-                    </div>
-                </div>
                 <div className={cx('right-side')}>
-                    <BarChart />
+                    <BarChart minQuantity={2000} maxQuantity={4000} />
                 </div>
             </div>
         </div>

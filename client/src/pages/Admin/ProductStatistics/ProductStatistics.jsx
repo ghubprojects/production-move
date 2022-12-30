@@ -22,7 +22,7 @@ export default function AdminProductStatistics() {
             </div>
             <div className={cx('wrapper')}>
                 <div className={cx('left-side')}>
-                    <div>
+                    {/* <div>
                         <span style={{ fontWeight: 'bold' }}> Theo trạng thái</span>
                         <div className={cx('check-box')}>
                             <Checkbox id='Chưa bán' />
@@ -30,26 +30,22 @@ export default function AdminProductStatistics() {
                             <Checkbox id='Đang bảo hành' />
                             <Checkbox id='Đã trả về cơ sở sản xuất' />
                         </div>
-                    </div>
+                    </div> */}
                     <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo cơ sở sản xuất</span>
+                        <span style={{ fontWeight: 'bold' }}> Tìm cơ sở sản xuất</span>
                         <SearchBar placeholder='Nhập ở đây...' data={BookData} />
                     </div>
                     <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo đại lý phân phối</span>
+                        <span style={{ fontWeight: 'bold' }}> Tìm đại lý phân phối</span>
                         <SearchBar placeholder='Nhập ở đây...' data={BookData} />
                     </div>
                     <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo trung tâm bảo hành</span>
-                        <SearchBar placeholder='Nhập ở đây...' data={BookData} />
-                    </div>
-                    <div>
-                        <span style={{ fontWeight: 'bold' }}> Theo đại lý phân phối</span>
+                        <span style={{ fontWeight: 'bold' }}> Tìm trung tâm bảo hành</span>
                         <SearchBar placeholder='Nhập ở đây...' data={BookData} />
                     </div>
                 </div>
                 <div className={cx('right-side')}>
-                    <BarChart />
+                    <BarChart minQuantity={100} maxQuantity={20000} />
                 </div>
             </div>
         </div>
